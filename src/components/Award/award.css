@@ -1,0 +1,36 @@
+.app__award {
+    margin-top: 5rem;
+}
+
+.app__award-content h1 {
+    color: var(--color-golden);
+}
+
+.app__award-img {
+    margin-right: 2rem;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__award-img img {
+    width: 100%;
+}
+
+.app__award-content {}
+
+@media screen and (max-width : 1350) {
+    .app__award-img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width : 750px) {
+    .app__award-img {
+        width: 80px;
+        height: 80px;
+    }
+}

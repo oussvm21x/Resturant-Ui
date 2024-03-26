@@ -1,0 +1,52 @@
+.app__menuItemheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app__menuItem .app__menuItemheader p:first-child {
+    color: var(--color-golden);
+}
+
+.line {
+    display: inline-block;
+    /* Display the line as an inline block element */
+    width: 90px;
+    /* Adjust the width of the line */
+    height: 1px;
+    /* Adjust the height/thickness of the line */
+    background-color: var(--color-golden);
+    /* Set the line's color */
+    margin: 0 2rem;
+}
+
+.app__meniItemhdeader-title {
+    flex: 1;
+}
+
+
+.app__meniItemhdeader-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* 
+@media screen and (max-width : 600px) {
+    .app__menuItemheader {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: left;
+
+    }
+
+
+    .app__menuItemtag {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+} */

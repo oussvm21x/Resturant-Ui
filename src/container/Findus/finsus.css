@@ -1,0 +1,11 @@
+.app__findus-content .custom__button {
+    display: none;
+}
+
+.app__findus-content .app__findus-content_button .custom__button {
+    display: block;
+}
+
+.app__findus-content .app__subHeading {
+    margin-bottom: 2rem;
+}

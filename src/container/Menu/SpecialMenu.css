@@ -1,0 +1,153 @@
+.app__specialMenu {
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+}
+
+.app__specialMenu-header {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.app__specialMenu-header .app__subHeading {
+    text-align: center;
+}
+
+.app__specialMenu-header .custom__button {
+    display: none;
+}
+
+.app__specialMenu-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.app__specialMenu-menu_img {
+    width: 400px;
+    margin: 0 2rem;
+}
+
+.app__specialMenu-menu_img img {
+    width: 100%;
+    height: auto;
+}
+
+.app__specialMenu-menu_wines,
+.app__specialMenu-menu_cocktails {
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+
+.app__specilaMenu-menu_ocktails-title,
+.app__specilaMenu-menu_wines-title {
+    margin: 2rem 0;
+}
+
+
+.app__specilaMenu-menu_wines-title,
+.app__specilaMenu-menu_cocktails-title {
+    color: var(--DCCA87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+
+    /* H2 64px Cormorant Upright */
+    font-family: Cormorant Upright;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 83.2px */
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+}
+
+.app__specilaMenu-menu_cocktails-content,
+.app__specilaMenu-menu_wines-content {
+    width: 100%;
+}
+
+.app__specilaMenu-menu_cocktails-content .line {
+    width: 150px;
+}
+
+.custom__button {
+    width: 180px;
+    margin: 3rem 0;
+}
+
+
+@media screen and (max-width : 2000px) {}
+
+@media screen and (max-width : 1150px) {
+    .app__specialMenu-menu {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+    .app__specialMenu-menu_img img {
+        width: 90%;
+        height: auto;
+    }
+
+    .app__specialMenu-menu_wines,
+    .app__specialMenu-menu_cocktails {
+        width: 70%;
+        flex: 1;
+        flex-direction: column;
+        margin: 0 2rem;
+        text-align: left;
+    }
+
+    .app__specialMenu-menu_img {
+        width: 400px;
+        margin: 2rem 0;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .app__specialMenu-menu_img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .app__specialMenu-menu_img {
+        width: 200px;
+        margin: 0 2rem;
+    }
+
+    .app__specialMenu-menu_img img {
+        width: 70%;
+        height: auto;
+    }
+
+    .app__specilaMenu-menu_wines-title,
+    .app__specilaMenu-menu_cocktails-title {
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: 1.7px;
+
+    }
+
+    .app__specilaMenu-menu_wines-content .line,
+    .app__specilaMenu-menu_cocktails-content .line {
+        display: none;
+    }
+
+    .app__specialMenu-menu_wines,
+    .app__specialMenu-menu_cocktails {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* @media screen and (max-width : 2px) {
+    
+} */

@@ -1,0 +1,49 @@
+.app__intro {
+    position: relative;
+    height: 100vh;
+}
+
+.app__intro video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app__intro-video_overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.app__intro-video_overlay-btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.app__intro-video_overlay-btn .bs-play-icon,
+.app__intro-video_overlay-btn .bs-pause-icon {
+    color: rgba(255, 255, 255, 0.765);
+    font-size: 2rem;
+}
+
+.bs-play-icon-hidden,
+.bs-pause-icon-hidden {
+    display: none;
+}
+
+@media screen and (max-width : 600px) {
+    .app__intro-video_overlay-btn {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .app__intro-video_overlay-btn .bs-play-icon,
+    .app__intro-video_overlay-btn .bs-pause-icon {
+        color: rgba(255, 255, 255, 0.765);
+        font-size: 1rem;
+    }
+}
